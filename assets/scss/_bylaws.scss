@@ -1,0 +1,260 @@
+.law-section {
+    background-image: url(../img/hero/Law_BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.obj-section {
+    .container_div {
+        background-image: url(../img/hero/hero2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+        border-radius: 80px;
+    }
+    .container_col {
+        // padding: 4%;
+        @media #{$big_screen-only} {
+            // padding-top: 160px;
+            padding-top: 0rem;
+        }
+        @media #{$large2} {
+            // padding-top: 160px;
+            padding-top: 0rem;
+        }
+        @media #{$mobile_device} {
+            // padding-top: 160px;
+            padding: 16% 6% 4%;
+        }
+        .obj_section {
+            overflow: hidden;
+            // background-image: url(../img/hero/HomeTitle_BG.png);
+            // background-position: center;
+            border-radius: 32px;
+            padding: 2%;
+            text-align: justify;
+            // padding-top: 230px;
+            // @media #{$xs}{
+            //     padding-top: 130px;
+            // }
+            // @media #{$sm}{
+            //     padding-top: 130px;
+            // }
+            // @media #{$md}{
+            //     padding-top: 160px;
+            // }
+            span {
+                color: #31ff7a;
+                font-size: 60px;
+                line-height: 1.2;
+                font-weight: 400;
+                margin-bottom: 30px;
+                display: block;
+                @media #{$xs} {
+                    margin-bottom: 30px;
+                    font-size: 56px;
+                }
+            }
+            h1 {
+                font-size: 60px;
+                font-weight: 700;
+                color: #fff;
+                line-height: 1.3;
+                margin-bottom: 22px;
+                @media #{$lg} {
+                    font-size: 60px;
+                    line-height: 1.2;
+                }
+                @media #{$md} {
+                    font-size: 50px;
+                    line-height: 1.2;
+                }
+                @media #{$sm} {
+                    font-size: 38px;
+                    line-height: 1.2;
+                    margin-bottom: 20px;
+                }
+                @media #{$xs} {
+                    font-size: 28px;
+                    line-height: 1.2;
+                    margin-bottom: 20px;
+                }
+            }
+            p {
+                color: #000000;
+                font-weight: 800;
+                font-size: 18px;
+                margin-bottom: 34px;
+                text-transform: uppercase;
+                line-height: 2.4;
+                @media #{$xs} {
+                    font-size: 16px;
+                    padding: 0 0px;
+                }
+            }
+            &.obj_section2 {
+                padding-top: 218px;
+                @media #{$xs} {
+                    padding-top: 184px;
+                }
+                @media #{$sm} {
+                    padding-top: 184px;
+                }
+            }
+        }
+    }
+    .obj_title {
+        background-image: url(../img/hero/hero2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        // width: 24%;
+        border-radius: 180px;
+        padding: 1.2% 0;
+        margin: 2%;
+        h1 {
+            color: #eeeeee;
+        }
+    }
+    .home_section {
+        margin: 2%;
+        h1 {
+            color: #000000;
+        }
+        p {
+            text-align: justify;
+        }
+    }
+}
+
+.courses-area {
+    .properties {
+        margin: 0 15px;
+        &.properties2 {
+            margin-bottom: 30px;
+        }
+        &__card {
+            box-shadow: 0px 6px 6px 0px rgba(2, 25, 65, 0.08);
+            border-radius: 10px;
+            @include transition(.4s);
+            &:hover {
+                box-shadow: 0px 8px 8px 0px rgba(2, 25, 65, 0.08);
+            }
+        }
+        &__img {
+            img {
+                width: 100%;
+                border-radius: 10px 10px 0 0;
+                position: relative;
+            }
+        }
+        &__caption {
+            padding: 29px 20px 20px 20px;
+            h3 {
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 6px;
+                @media #{$lg} {
+                    font-size: 16px;
+                }
+                a {
+                    color: #222222;
+                    text-decoration: underline transparent;
+                    &:hover {
+                        text-decoration: underline;
+                        color: $heading-color;
+                    }
+                }
+            }
+            P {
+                color: #05fc95;
+                & span {
+                    color: $theme-color;
+                    font-size: 16px;
+                    @media #{$md} {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        &__footer {
+            margin-bottom: 22px;
+            @include transition(.4s);
+            @media #{$xs} {
+                padding: 19px 10px 20px 12px;
+            }
+            .restaurant-name {
+                p {
+                    display: inline-block;
+                    color: #222222;
+                    span {
+                        color: #FF7B2E;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .price {
+                span {
+                    cursor: pointer;
+                    font-weight: 700;
+                    color: #4255A4;
+                    font-size: 23px;
+                }
+            }
+        }
+        &:hover {
+            .border-btn2 {
+                color: #fff;
+                background: $btn_bg;
+                @include transition(.4s);
+            }
+        }
+    }
+}
+
+.rating {
+    i {
+        font-size: 14px;
+        color: #FF7B2E;
+    }
+}
+
+// Arrow
+.courses-actives {
+    button {
+        &.slick-arrow {
+            position: absolute;
+            border: 0;
+            padding: 0;
+            z-index: 2;
+            cursor: pointer;
+            top: 50%;
+            transform: translateY(-50%);
+            left: auto;
+            background: none;
+            i {
+                font-size: 20px;
+                color: $theme-color;
+                @include transition(.2s);
+                &:hover {
+                    color: $heading-color;
+                }
+            }
+        }
+        &.slick-prev {
+            left: -58px;
+            i {
+                color: #ddd;
+            }
+        }
+        &.slick-next {
+            right: -58px;
+            i {
+                color: #ddd;
+            }
+        }
+    }
+}

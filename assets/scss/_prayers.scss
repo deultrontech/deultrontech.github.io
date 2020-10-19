@@ -1,0 +1,261 @@
+/*=================== contact banner start ====================*/
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header-sec {
+    height: 5rem;
+}
+
+.main-header {
+    background-color: #44b4ff;
+}
+
+.prayer-section {
+    background-image: url(../img/hero/PrayersBG.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+.prayer-section1 {
+    background-image: url(../img/hero/FormBG.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+.prayer-row {
+    padding: 2%;
+    opacity: 0.9;
+    border-radius: 36px;
+    background-image: linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+    background-image: -moz-linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+    box-shadow: 0px 4px 6.66px 2.34px rgba(0, 0, 0, 0.35);
+    .container_div {
+        .container_col {
+            .prayer_div {
+                p {
+                    text-align: left;
+                    font-weight: 600;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        width: 24px;
+                        height: 32px;
+                        background-color: #65FF33;
+                        border-radius: 11px;
+                        left: -1.2rem;
+                        border-width: 2.77px;
+                        border-style: solid;
+                        border-color: rgba(20, 224, 41, .85);
+                        box-shadow: 0px 4px 6.66px 2.34px rgba(51, 255, 121, .35);
+                        z-index: 284;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.prayer-form {
+    opacity: 0.9;
+    border-radius: 36px;
+    background-image: linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+    background-image: -moz-linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+    box-shadow: 0px 4px 6.66px 2.34px rgba(0, 0, 0, 0.35);
+    padding: 4%;
+}
+
+.prayers_div--bottom {
+    background-image: linear-gradient(-91deg, rgba(65, 65, 65, 0.99608) 0%, #010101 100%);
+    background-image: -ms-linear-gradient(-91deg, rgba(65, 65, 65, 0.99608) 0%, #010101 100%);
+    .prayer-bottom {
+        margin: 0;
+    }
+    p {
+        color: white;
+        text-align: center;
+        // font-weight: 900;
+        padding: 2% 0;
+    }
+}
+
+.prayers_div {
+    // border-radius: 4%;
+    padding: 4%;
+    height: 100%;
+}
+
+.prayer-holder {
+    width: 100%;
+    img {
+        height: 65vh;
+    }
+}
+
+.contact-info {
+    margin-bottom: 25px;
+    img {
+        width: 100%;
+    }
+    &__icon {
+        margin-right: 20px;
+        i,
+        span {
+            color: #8f9195;
+            font-size: 27px;
+        }
+    }
+    .media-body {
+        h3 {
+            font-size: 16px;
+            margin-bottom: 0;
+            font-size: 16px;
+            color: #2a2a2a;
+            a {
+                &:hover {
+                    color: $theme-color2;
+                }
+            }
+        }
+        p {
+            color: #8a8a8a;
+        }
+    }
+}
+
+
+/*=================== contact banner end ====================*/
+
+
+/*=================== contact form start ====================*/
+
+.contact-title {
+    border-radius: 36px;
+    background-image: linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+    background-image: -moz-linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+    box-shadow: 0px 4px 6.66px 2.34px rgba(0, 0, 0, 0.35);
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+    width: 100%;
+    padding: 4%;
+    text-align: center;
+}
+
+.form-contact {
+    label {
+        font-size: 14px;
+    }
+    .form-group {
+        margin-bottom: 30px;
+    }
+    .form-control {
+        border: 1px solid #e5e6e9;
+        height: 48px;
+        padding-left: 18px;
+        font-size: 13px;
+        border-width: 2.77px;
+        border-style: solid;
+        border-radius: 25px;
+        background-color: rgb(236, 236, 236);
+        &:focus {
+            outline: 0;
+            box-shadow: none;
+        }
+        &::placeholder {
+            font-weight: 300;
+            color: #999999;
+        }
+    }
+    textarea {
+        border-radius: 0px;
+        height: 100% !important;
+    }
+    button {
+        border-radius: 40px;
+        background-image: linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+        background-image: -moz-linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+        background-image: -ms-linear-gradient( 90deg, rgb(79, 172, 254) 0%, rgb(0, 242, 254) 100%);
+        box-shadow: 0px 4px 6.64px 1.36px rgba(255, 255, 255, 0.35);
+        color: white !important;
+    }
+}
+
+
+/*=================== contact form end ====================*/
+
+
+/* Contact Success and error Area css
+  ============================================================================================ */
+
+.modal-message {
+    .modal-dialog {
+        position: absolute;
+        top: 36%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%) !important;
+        margin: 0px;
+        max-width: 500px;
+        width: 100%;
+        .modal-content {
+            .modal-header {
+                text-align: center;
+                display: block;
+                border-bottom: none;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                .close {
+                    position: absolute;
+                    right: -15px;
+                    top: -15px;
+                    padding: 0px;
+                    color: #fff;
+                    opacity: 1;
+                    cursor: pointer;
+                }
+                h2 {
+                    display: block;
+                    text-align: center;
+                    padding-bottom: 10px;
+                }
+                p {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+.contact-section {
+    padding: 130px 0 100px;
+    @media #{$tab} {
+        padding: 70px 0 40px;
+    }
+    @media #{$medium_device} {
+        padding: 80px 0 50px;
+    }
+    .btn_2 {
+        background-color: #191d34;
+        padding: 18px 60px;
+        border-radius: 50px;
+        margin-top: 0;
+        &:hover {
+            background-color: $theme-color2;
+        }
+    }
+}
